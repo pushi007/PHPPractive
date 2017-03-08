@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+     border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
 <?php
 include "db.php";
 
@@ -19,6 +30,10 @@ if($num_rows > 0)
         echo "<tr><td>".$row["id"]."</td><td>".$row["name"]."</td></tr>";
     }
 	 echo "</table>";
+	 
+	 echo "<br/>";
+	 
+	 echo "<a href='index.php'>Back</a>";
 }
 else
   echo "0 results";
@@ -27,3 +42,6 @@ mysql_free_result($result);
 mysql_close($link);
 
 ?>
+
+</body>
+</html>

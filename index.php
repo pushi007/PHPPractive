@@ -12,8 +12,6 @@
 
 <ul id="main_menu">
 <li><a href="register.php" title="Register new user">Register Employee</a></li>
-<li><a href="search.php" title="Users list">Search Register Employee</a></li>
-
 </ul>
 
 <form method="post" action="searchResults.php">
