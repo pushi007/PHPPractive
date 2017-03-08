@@ -8,6 +8,8 @@ $result = mysql_query($sql, $link);
 
 if($result == false) {
   echo 'Error: cannot execute query';
+  echo "<br/>";
+  echo "<a href='index.php'>Go to Search page.</a>";
   exit;
 }
 else {

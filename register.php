@@ -10,7 +10,9 @@
 <h1><a href="register.php">Register Employees</a></h1>
 </header>
 
-
+<ul id="main_menu">
+<li><a href="index.php" title="Search Employees">Search Employees</a></li>
+</ul>
 
 <form method="post" action="registerEmp.php">
 <fieldset>
